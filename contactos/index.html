@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactenos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/estilos5.css">
+</head>
+<body>
+    <header>
+        <div class="text-center jumbotron">
+            <figure class="text-left">
+                <img class="img-fluid" src="../img/HyundaiLogo.png" alt="Hyundai_Logo">
+            </figure>
+            <figure>
+                <img class="img-fluid" src="../img/Consulta.png" alt="anuncio">
+            </figure>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <figure class="logoSP">
+            <img src="../img/logoSP.png ">
+        </figure>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="../index.html" title="Inicio">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://hyundai.pe/" target="_blank">Pagina Oficial</a> </li>
+                <li class="nav-item"><a class="nav-link" href="../nosotros/index.html" title="Nosotros">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="../servicios/index.html" title="Servicios">Servicios </a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html" title="Contactenos">Contactenos</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="../productos/index.html" title="Productos">Productos</a>
+                </li>
+            </ul>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7" class="bloqueF">
+                    <form class="formContacto" name="formContacto" action="" method="POST">
+                        <fieldset >
+                            <legend class="titulo">Consultas</legend><hr/>
+                                <p>
+                                    <label for="dato_personal" class="titulo">Datos Personales</label>
+                                </p><br/> 
+                            
+                                <p> 
+                                    <label for="nombre">NOMBRES</label><br/> 
+                                    <input type="text" name="nombre" class="entrada" required="true">
+                                </p><br/> 
+                                <p>
+                                    <label for="apellido">APELLIDOS</label><br/>
+                                    <input type="text" name="apellido" class="entrada" required="true">
+                                </p><br/> 
+                                <p>
+                                    <label for="dni"> DNI</label><br/>
+                                    <input type="text" name="dni" class="entrada" maxlength="8" required="true">
+                                </p><br/> 
+                                <p>
+                                    <label for="celular">CELULAR</label><br/>
+                                    <input type="tel" name="celular" class="entrada" maxlength="9" pattern="[0-9]{9}" required="true">
+                                </p><br/> 
+                                <p>
+                                    <label for="telefono">TELÉFONO</label><br/>
+                                    <input type="tel" name="telefono" class="entrada" maxlength="9" pattern="[0-6]{9}">
+                                </p><br/> 
+                                <p>
+                                    <label for="correo">E-MAIL</label><br/>
+                                    <input type="email" name="correo" class="entrada" required="true">
+                                </p><br/>   
+                                <p>
+                                    <label for="departamento">DEPARTAMENTO</label><br/>
+                                        <select name="departamento" class="lista">
+                                            <option value="">Seleccione...</option>
+                                            <option value="Amazonas">Amazonas</option>
+                                            <option value="Ancash">Ancash</option>
+                                            <option value="Apurimac">Apurimac</option>
+                                            <option value="Arequipa">Arequipa</option>
+                                            <option value="Ayacucho">Ayacucho</option>
+                                            <option value="Cajamarca">Cajamarca</option>
+                                            <option value="Callao">Callao</option>
+                                            <option value="Cusco">Cusco</option>
+                                            <option value="Huancavelica">Huancavelica</option>
+                                            <option value="Huanuco">Huanuco</option>
+                                            <option value="Ica">Ica</option>
+                                            <option value="Junin">Junin</option>
+                                            <option value="Libertad">La Libertad</option>
+                                            <option value="Lambayeque">Lambayeque</option>
+                                            <option value="Lima">Lima</option>
+                                            <option value="Loreto">Loreto</option>
+                                            <option value="Madre_De_Dios">Madre De Dios</option>
+                                            <option value="Moquegua">Moquegua</option>
+                                            <option value="Pasco">Pasco</option>
+                                            <option value="Piura">Piura</option>
+                                            <option value="Puno">Puno</option>
+                                            <option value="San Martin">San Martin</option>
+                                            <option value="Tacna">Tacna</option>
+                                            <option value="Tumbes">Tumbes</option>
+                                    </select>
+                            </p><br/>
+                            <p>
+                                <label for="distrito">DISTRITO</label><br/>
+                                <input type="text" name="distrito" class="entrada" >
+                            </p><br/>
+                            <p>
+                                <label for="direccion">DIRECCCIÓN</label><br/>
+                                <input type="text" name="direccion" class="entrada" required="true">
+                            </p><br/> 
+                            <p>
+                                <label for="servicio">SERVICIO</label><br/>
+                                    <select name="servicio" class="lista">
+                                        <option value="">Seleccione...</option>
+                                        <option value="atencion">ATENCIÓN</option>
+                                        <option value="financiamiento">FINANCIAMIENTO</option>
+                                        <option value="compra">PROCESO DE COMPRA</option>
+                                        <option value="cotizacion">COTIZACIÓN</option>
+                                        <option value="otros">OTROS</option>
+                                    </select>
+                            </p>
+                            
+                        </fieldset><br/>
+        
+                        <fieldset>
+                            <legend class="titulo">Datos del Vehículo</legend><br/>
+                                <p>
+                                    <label for="placa">PLACA</label><br/>
+                                    <input type="text" name="placa" class="entrada" required="true">
+                                </p><br/>
+                                <p> 
+                                    <label for="propietario">PROPIETARIO</label><br/>
+                                    <input type="text" name="propietario" class="entrada" required="true">
+                                </p><br/>
+                                <p>
+                                    <label for="modelo">MODELO</label><br/>
+                                    <select name="modelo" class="lista" >
+                                        <option value="" >Seleccione...</option>
+                                        <option value="Hyundai_i10">Hyundai i10</option>
+                                        <option value="Hyundai_i20">Hyundai i20</option>
+                                        <option value="Hyundai_i30_2019">Hyundai i30 2019</option>
+                                        <option value="Hyundai_i30_2017">Hyundai i30 2017</option>
+                                        <option value="Hyundai_i40">Hyundai i40</option>
+                                        <option value="Hyundai_Ioniq">Hyundai IONIQ</option>
+                                        <option value="Hyundai_ix20">Hyundai ix20</option>
+                                        <option value="Hyundai_Kona">Hyundai Kona</option>
+                                        <option value="Hyundai_Tucson">Hyundai Tucson</option>
+                                        <option value="Hyundai_SantaFe">Hyundai Santa Fe</option>
+                                        <option value="Hyundai_NEXO">Hyundai NEXO</option>
+                                    </select>
+                                </p><br/>
+                                <p>
+                                    <label for="mensaje">MENSAJE</label><br/>
+                                    <textarea name="mensaje" class="entrada" cols="30" rows="10" required=""></textarea>
+                                </p>
+                            </fieldset>
+                            <fieldset id="botones">
+                                <p>
+                                    <input type="submit" name="bEnvio" class="boton" value="ENVIAR">
+                                    <input type="reset" name="nReinicio" class="boton" value="REINICIAR">
+                                </p>
+                            </fieldset>
+                    </form>
+                </div>
+                <div class="col-sm-4 offset-1 bloqueR">
+                    <h3 class="tituloR">Redes Sociales </h3>
+					<ul class="nav nav-pills flex-column">
+						<li class="nav-item ">
+						  <a href="https://es-la.facebook.com/hyundaiperu/" title="Facebook" target="_blank" class="nav-link list-group-item-dark list-group-item-action"><img class="img-fluid"  src="../img/FACEBOOK2.png" alt="Facebook"></a>
+					    </li>
+					    <li class="nav-item ">
+						  <a href="https://twitter.com/hyundai_peru?lang=es" title="Twiter" target="_blank" class="nav-link list-group-item-secondary list-group-item-action"><img class="img-fluid" src="../img/Twiter2.png" alt="Twitter"></a>
+					    </li>
+					    <li class="nav-item ">
+						  <a href="https://www.youtube.com/user/HYUNDAIdelPERU" title="Youtube" target="_blank" class="nav-link list-group-item-dark list-group-item-action"><img class="img-fluid"  src="../img/Youtube2.png" alt="Youtube"></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="https://www.instagram.com/hyundai_peru/?hl=es-la" title="Instagram" target="_blank" class="nav-link list-group-item-secondary list-group-item-action"><img class="img-fluid"  src="../img/INSTAGRAM21.png" alt="Youtube"></a>
+                        </li><br/>
+                        <li class="list-group-item list-group-item-light">
+                            <img src="../img/Whatsapp2.png" alt="Watsapp">
+                        </li>
+                    </ul><br/> 
+                    <h3><img src="../img/maps2.png" alt=""></h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d210006.73207863574!2d-77.07501004923637!3d-12.028994311484576!3m2!1i1024!2i768!4f13.1!2m1!1shyundai!5e0!3m2!1ses-419!2spe!4v1600360223941!5m2!1ses-419!2spe" width="325" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <iframe width="325" height="200" src="https://www.youtube.com/embed/9XhrikWnqGw?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center jumbotron-fluid">
+        <div class="fondof">
+            <figure><img src="../img/logoSP.png" alt="logo"></figure>
+            <p>
+                ⓒ Derechos de autor 2020 Hyundai motor Company. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

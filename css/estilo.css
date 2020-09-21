@@ -1,0 +1,95 @@
+
+header{
+    margin-bottom: -32px;
+}
+body{
+    background: url(../img/bg-contentwrap03.jpg);
+}
+/*Menu de Navegacion*/
+.logoSP{
+    margin-top: 15px;  
+}
+div ul li{
+    margin-left: 25px;
+    color: #d7d6d8;
+    font-weight: bold;  
+}
+div ul li:hover{
+   color: #ffffff;
+   font-size: 20px;
+}
+
+/****CONTENIDO***/
+h1{
+    color:#173b88 ;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#lanzamientosU{
+    margin-left: 30%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    font-size: 35px;
+}
+.imagen{
+    width: 80%;
+    margin-left: 20px;
+}
+.title{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.bloque{
+    border-left: 1px solid #c7c2c2;
+}
+
+.bloque button{
+    text-align: center;
+}
+.botones{
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+.bloque .botones button a{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.botones button a{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.btn-primary{
+    background:  #173b88;
+    border:#173b88 ;
+}
+.btn-primary:hover{
+    opacity: 100%;
+    
+}
+ article p{
+    text-align: justify;
+    font-size: 20px;
+}
+.bloque2{
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.subtitulo{
+    font-weight: bold;
+    color: #173b88;
+}
+
+/********FOOTER**************/
+.fondof{
+    background: #232324;
+    color: #d7d6d8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}

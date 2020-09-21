@@ -1,0 +1,114 @@
+/*-----Estilos del la secccion CONTACTENOS------*/
+header{
+    margin-bottom: -32px;
+}
+body{
+    background: url(../img/bg-contentwrap03.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Menu de Navegacion*/
+.logoSP{
+    margin-top: 15px;  
+}
+div ul li{
+    margin-left: 25px;
+    color: #d7d6d8;
+    font-weight: bold;  
+}
+div ul li:hover{
+   color: #ffffff;
+   font-size: 20px;
+}
+
+
+/*--Estilos del contenido*/
+
+.formContacto{
+    margin-top: 20px;
+    background: #fff9f9;
+}
+
+form{
+    background: #ffff;
+    color: #868585;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 40px;
+    width: 100%;
+}
+fieldset{
+    border: none;
+}
+input,textarea ,.lista{
+    border-radius: 5px; 
+    width: 70%;
+    font-family:inherit;
+}
+.titulo{
+    color: #173b88;
+    font-weight: bold;
+    font-size: 25px;   
+}
+
+
+.entrada  {
+    border:solid 1px #cccccc;
+    padding: 10px;
+    width: 70%;
+    color: #444343 ;
+}
+
+
+.entrada:focus ,.entrada:hover{
+    border:solid 2px #76747c;
+    background: #f8f8f8;
+}
+
+.lista{
+    border:solid 1px #cccccc;
+    padding: 10px;
+    width: 50%;
+    color: #444343 ;
+    
+}
+.boton{
+    background: #173b88;
+    color: rgb(236, 236, 236);
+    padding: 5px;
+    font-weight: bold;
+    width: 30%;
+    margin-top: 20px; 
+    margin-left: 30px;
+    border: none;
+}
+.boton:hover{
+    background: #3877d4;
+}
+#botones{
+    text-align: center;
+}
+/* Estilo del aside*/
+.bloqueR{
+    margin-top: 20px;
+}
+
+.tituloR{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 25px;
+    color: #173b88;
+}
+iframe{
+    margin-left: 7%;
+    margin-bottom:5%;
+}
+/*Estilo Footer*/
+.fondof{
+    background: #232324;
+    color: #d7d6d8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+
