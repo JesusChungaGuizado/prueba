@@ -1,0 +1,38 @@
+body{
+    background-image: url(../img/FondoLogin.jpg);
+    background-size: cover;
+}
+.formContacto{
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 20%;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #76747c;
+    
+}
+fieldset legend{
+    font-size: 30px;
+    color: #ffffff;
+    background-color:  #173b88;
+}
+.entrada{
+    border:solid 1px #cccccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #76747c;
+    width: 100%;
+}
+.boton{
+    padding: 5px;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    background-color:  #173b88;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #76747c;
+    width: 100%;
+}
+.boton:hover{
+    opacity: 0.8;
+}

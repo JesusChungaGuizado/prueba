@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactenos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/estilos5.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+                <figure class="text-left logoP">
+                    <img class="img-fluid " src="../img/HyundaiLogo.png" alt="Hyundai_Logo">
+                </figure>
+                <figure>
+                    <img class="img-fluid" src="../img/consulta2.png" alt="consulta">
+                </figure>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <figure class="logoSP">
+            <img src="../img/logoSP.png ">
+        </figure>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="../index.html" title="Inicio">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="../nosotros/index.html" title="Nosotros">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="../servicios/index.html" title="Servicios">Servicios </a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html" title="Contactenos">Contactenos</a></li>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Modelos Hyundai</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="../ModeloBlueDrive/index.html">Blue Drive</a>
+                        <a class="dropdown-item" href="../ModeloGreenDrive/index.html">Green Drive</a>
+                        <a class="dropdown-item" href="../Hatchback/index.html">Hatchback</a>
+                        <a class="dropdown-item" href="../Sedan/index.html">Sedán</a>
+                        <a class="dropdown-item" href="../Suv/index.html">Suv</a>
+                        <a class="dropdown-item" href="../utilitarios/index.html">Utilitarios</a>
+                        <a class="dropdown-item" href="../camiones/index.html">Camiones</a>
+                        <a class="dropdown-item" href="../buses/index.html">Buses</a>
+                      </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="../Ubicanos/index.html" target="_blank">Ubicanos</a>
+                </li>
+            </ul>
+            <span><a class="login" href="../Sesion/index.html">Iniciar Sesión/Registrate<img src="../img/loginF.png" alt="usuario"></a></span>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    <section class="fondo">
+        <div class="container">
+            <div class="col-sm-10 offset-1">
+              <form class="formContacto" name="formContacto" action="" method="POST">
+                <fieldset>
+                    <legend class="titulo">Consultas</legend><hr/>
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="nombre">NOMBRES</label> 
+                            <input type="text" class="form-control" id="nombre" name="nombre" required="true">
+                        </div>
+                        <div class="col">
+                            <label for="apellido">APELLIDOS</label> 
+                            <input type="text" class="form-control" id="apellido" name="apellido" required="true">
+                        </div>
+                    </div><br/>
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="apellido">DNI</label> 
+                            <input type="text" class="form-control" id="dni" name="dni"  maxlength="8" required="true">
+                        </div>
+                        <div class="col">
+                            <label for="celular">CELULAR</label> 
+                            <input type="tel" class="form-control" id="celular" name="celular" maxlength="9" pattern="[0-9]{9}" required="true">
+                        </div>
+                        <div class="col">
+                            <label for="departamento">DEPARTAMENTO</label> 
+                            <select name="departamento" class="form-control lista" id="departamento" required="true">
+                                <option value="">Seleccione...</option>
+                                <option value="Amazonas">Amazonas</option>
+                                <option value="Ancash">Ancash</option>
+                                <option value="Apurimac">Apurimac</option>
+                                <option value="Arequipa">Arequipa</option>
+                                <option value="Ayacucho">Ayacucho</option>
+                                <option value="Cajamarca">Cajamarca</option>
+                                <option value="Callao">Callao</option>
+                                <option value="Cusco">Cusco</option>
+                                <option value="Huancavelica">Huancavelica</option>
+                                <option value="Huanuco">Huanuco</option>
+                                <option value="Ica">Ica</option>
+                                <option value="Junin">Junin</option>
+                                <option value="Libertad">La Libertad</option>
+                                <option value="Lambayeque">Lambayeque</option>
+                                <option value="Lima">Lima</option>
+                                <option value="Loreto">Loreto</option>
+                                <option value="Madre_De_Dios">Madre De Dios</option>
+                                <option value="Moquegua">Moquegua</option>
+                                <option value="Pasco">Pasco</option>
+                                <option value="Piura">Piura</option>
+                                <option value="Puno">Puno</option>
+                                <option value="San Martin">San Martin</option>
+                                <option value="Tacna">Tacna</option>
+                                <option value="Tumbes">Tumbes</option>
+                            </select>
+                        </div>
+                    </div><br/>
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="correo">E-MAIL</label> 
+                            <input type="email" class="form-control" id="correo" name="correo" required="true">
+                        </div>
+                        <div class="col">
+                            <label for="servicio">SERVICIO</label>
+                            <select name="servicio" class="form-control lista" id="servicio" required="true">
+                                <option value="">Seleccione...</option>
+                                <option value="atencion">ATENCIÓN</option>
+                                <option value="financiamiento">FINANCIAMIENTO</option>
+                                <option value="compra">PROCESO DE COMPRA</option>
+                                <option value="cotizacion">COTIZACIÓN</option>
+                                <option value="otros">OTROS</option>
+                            </select>
+                        </div>
+                    </div><br/>
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="direccion">DIRECCIÓN</label>
+                            <input type="text" class="form-control" id="direccion" name="direccion" required="true">
+                        </div>
+                        <div class="col">
+                            <label for="modelo">MODELO DEL VEHÍCULO</label>
+                            <select name="modelo" class="form-control lista" id="modelo" required="true">
+                                <option value="">Seleccione...</option>
+                                <option value="blue">Blue Drive</option>
+                                <option value="green">Green Drive</option>
+                                <option value="hatchback">Hatchback</option>
+                                <option value="sedan">Sedán</option>
+                                <option value="suv">Suv</option>
+                                <option value="utilitarios">Utilitarios</option>
+                                <option value="camiones">Camiones</option>
+                                <option value="buses">Buses</option>
+                            </select>
+                        </div>
+                    </div><br/>
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="comment">MENSAJE</label>
+                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <input type="submit" name="bEnvio" class="boton form-control" value="ENVIAR">
+                    </div >
+                </fieldset>   
+              </form>
+            </div>
+        </div>  
+    </section>
+    <footer class="text-center jumbotron-fluid">
+        <div class="fondof">
+            <figure><img src="../img/logoSP.png" alt="logo"></figure>
+            <p>
+                ⓒ Derechos de autor 2020 Hyundai motor Company. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

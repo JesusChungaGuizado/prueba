@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/estilo6.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 offset-1">
+                    <form class="formContacto" name="formContacto" action="" method="POST">
+                        <fieldset>
+                            <Legend>Iniciar Sesión</Legend>
+                            <div class="form-group">
+                                <input type="email" name="correo" class="entrada" placeholder="Email*" maxlength="10" required="true">
+                            </div> 
+                            <div class="form-group">
+                                <input type="password" name="pass" class="entrada" placeholder="Contraseña*" required="true" minlength="6">
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" name="Inicio" value="Sing in" class="boton">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="col-sm-4 offset-1">
+                    <form class="formContacto" name="formContacto1" action="" method="POST">
+                        <fieldset>
+                            <Legend>Registrarme</Legend>
+                            <div class="form-group">  
+                                <input type="text" name="nombre" class="entrada" placeholder="Nombres*" required="true">
+                            </div class="form-group">
+                            <div class="form-group">
+                                
+                                <input type="text" name="apellido" class="entrada" placeholder="Apellidos*" required="true">
+                            </div class="form-group">
+                            <div class="form-group">
+                                <input type="text" name="dni" class="entrada" placeholder="DNI*" maxlength="8" required="true">
+                            </div class="form-group"> 
+                            <div class="form-group">
+                                <input type="email" name="correo" class="entrada" placeholder="Email*" required="true">
+                            </div class="form-group"> 
+                            <div class="form-group">
+                                <input type="password" name="pass" class="entrada" placeholder="Contraseña*" required="true" minlength="6">
+                            </div class="form-group">
+                            <div class="form-group">
+                                <input type="checkbox" name="terminos" value="terminos" required="true">
+                                <label for="terminos">Acepto terminos y condiciones</label>
+                            </div class="form-group">
+                            <div class="form-group">
+                                <input type="submit" name="Registrarme" value="Registrarme" class="boton">
+                            </div class="form-group">
+                        </fieldset>
+                
+                    </form>
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,54 @@
+
+body{
+    background-image: url(../img/FondoLogin.jpg);
+    background-size: cover;
+
+}
+h1{
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #76747c;
+    margin-top: 5%;
+}
+table{
+    
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+tr{
+   background-color: #ffffff;
+}
+td{
+    border: 1px solid #dddddd;
+    padding:8px;
+    box-shadow: 1px 1px 1px  #76747c;
+}
+table .seccion{
+    background-color:darkblue;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    font-size: 20px;
+}
+table .seccion td img{
+ margin-right: 10px;
+}
+iframe{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px  #76747c;
+}
+/****Estilo footer**/
+.fondof{
+    background: #232324;
+    color: #d7d6d8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}

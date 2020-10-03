@@ -14,13 +14,13 @@
 
 <body>
     <header>
-        <div class="text-center jumbotron">
-            <figure class="text-left">
-                <img class="img-fluid" src="../img/HyundaiLogo.png" alt="Hyundai_Logo">
-            </figure>
-            <figure>
-                <img class="img-fluid" src="../img/Servicio.png" alt="anuncio">
-            </figure>
+        <div class="container">
+                <figure class="text-left logoP">
+                    <img class="img-fluid " src="../img/HyundaiLogo.png" alt="Hyundai_Logo">
+                </figure>
+                <figure>
+                    <img class="img-fluid" src="../img/Servicio3.png" alt="Servicio">
+                </figure>
         </div>
     </header>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
@@ -29,10 +29,8 @@
         </figure>
 
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item nave"><a class="nav-link" href="../index.html" title="Inicio">Inicio</a></li>
-                <li class="nav-item nave"><a class="nav-link" href="https://hyundai.pe/" target="_blank">Pagina Oficial</a>
-                </li>
                 <li class="nav-item nave"><a class="nav-link" href="../nosotros/index.html" title="Nosotros">Nosotros</a>
                 </li>
                 <li class="nav-item nave"><a class="nav-link" href="index.html" title="Servicios">Servicios </a>
@@ -40,9 +38,22 @@
                 <li class="nav-item nave"><a class="nav-link" href="../contactos/index.html"
                         title="Contactenos">Contactenos</a>
                 </li>
-                <li class="nav-item nave"><a class="nav-link" href="../productos/index.html" title="Productos">Productos</a>
+                <li class="nav-item dropdown nave"><a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Modelos Hyundai</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="../ModeloBlueDrive/index.html">Blue Drive</a>
+                        <a class="dropdown-item" href="../ModeloGreenDrive/index.html">Green Drive</a>
+                        <a class="dropdown-item" href="../Hatchback/index.html">Hatchback</a>
+                        <a class="dropdown-item" href="../Sedan/index.html">Sedán</a>
+                        <a class="dropdown-item" href="../Suv/index.html">Suv</a>
+                        <a class="dropdown-item" href="../utilitarios/index.html">Utilitarios</a>
+                        <a class="dropdown-item" href="../camiones/index.html">Camiones</a>
+                        <a class="dropdown-item" href="../buses/index.html">Buses</a>
+                      </div>
+                </li>
+                <li class="nav-item nave"><a class="nav-link" href="../Ubicanos/index.html" target="_blank">Ubicanos</a>
                 </li>
             </ul>
+            <span><a class="login" href="../Sesion/index.html">Iniciar Sesión/Registrate<img src="../img/loginF.png" alt="usuario"></a></span>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>

@@ -12,13 +12,13 @@
 </head>
 <body>
     <header>
-        <div class="text-center jumbotron">
-            <figure class="text-left">
-                <img class="img-fluid" src="../img/HyundaiLogo.png" alt="Hyundai_Logo">
-            </figure>
-            <figure>
-                <img class="img-fluid" src="../img/Consulta.png" alt="anuncio">
-            </figure>
+        <div class="container">
+                <figure class="text-left logoP">
+                    <img class="img-fluid " src="../img/HyundaiLogo.png" alt="Hyundai_Logo">
+                </figure>
+                <figure>
+                    <img class="img-fluid" src="../img/consulta2.png" alt="consulta">
+                </figure>
         </div>
     </header>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
@@ -27,95 +27,64 @@
         </figure>
 
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item"><a class="nav-link" href="../index.html" title="Inicio">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="https://hyundai.pe/" target="_blank">Pagina Oficial</a> </li>
                 <li class="nav-item"><a class="nav-link" href="../nosotros/index.html" title="Nosotros">Nosotros</a></li>
                 <li class="nav-item"><a class="nav-link" href="../servicios/index.html" title="Servicios">Servicios </a></li>
-                <li class="nav-item"><a class="nav-link" href="index.html" title="Contactenos">Contactenos</a>
+                <li class="nav-item"><a class="nav-link" href="index.html" title="Contactenos">Contactenos</a></li>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Modelos Hyundai</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="../ModeloBlueDrive/index.html">Blue Drive</a>
+                        <a class="dropdown-item" href="../ModeloGreenDrive/index.html">Green Drive</a>
+                        <a class="dropdown-item" href="../Hatchback/index.html">Hatchback</a>
+                        <a class="dropdown-item" href="../Sedan/index.html">Sedán</a>
+                        <a class="dropdown-item" href="../Suv/index.html">Suv</a>
+                        <a class="dropdown-item" href="../utilitarios/index.html">Utilitarios</a>
+                        <a class="dropdown-item" href="../camiones/index.html">Camiones</a>
+                        <a class="dropdown-item" href="../buses/index.html">Buses</a>
+                      </div>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="../productos/index.html" title="Productos">Productos</a>
+                <li class="nav-item"><a class="nav-link" href="../Ubicanos/index.html" target="_blank">Ubicanos</a>
                 </li>
             </ul>
+            <span><a class="login" href="../Sesion/index.html">Iniciar Sesión/Registrate<img src="../img/loginF.png" alt="usuario"></a></span>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
     </nav>
-    <section>
-        <div class="container">
+    <section class="fondo">
+        <div class="container ">
             <div class="row">
-                <div class="col-sm-7" class="bloqueF">
+                <div class="col-sm-10" >
                     <form class="formContacto" name="formContacto" action="" method="POST">
                         <fieldset >
                             <legend class="titulo">Consultas</legend><hr/>
-                                <p>
+                                <div class="form-group">
                                     <label for="dato_personal" class="titulo">Datos Personales</label>
-                                </p><br/> 
-                            
-                                <p> 
+                                </div >
+                                <div class="form-group"> 
                                     <label for="nombre">NOMBRES</label><br/> 
-                                    <input type="text" name="nombre" class="entrada" required="true">
-                                </p><br/> 
-                                <p>
+                                    <input type="text" name="nombre" class="entrada form-control" required="true">
+                                </div >
+                                <div class="form-group">
                                     <label for="apellido">APELLIDOS</label><br/>
-                                    <input type="text" name="apellido" class="entrada" required="true">
-                                </p><br/> 
-                                <p>
+                                    <input type="text" name="apellido" class="entrada form-control" required="true">
+                                </div >
+                                <div class="form-group">
                                     <label for="dni"> DNI</label><br/>
-                                    <input type="text" name="dni" class="entrada" maxlength="8" required="true">
-                                </p><br/> 
-                                <p>
+                                    <input type="text" name="dni" class="entrada form-control" maxlength="8" required="true">
+                                </div > 
+                                <div class="form-group">
                                     <label for="celular">CELULAR</label><br/>
-                                    <input type="tel" name="celular" class="entrada" maxlength="9" pattern="[0-9]{9}" required="true">
-                                </p><br/> 
-                                <p>
-                                    <label for="telefono">TELÉFONO</label><br/>
-                                    <input type="tel" name="telefono" class="entrada" maxlength="9" pattern="[0-6]{9}">
-                                </p><br/> 
-                                <p>
+                                    <input type="tel" name="celular" class="entrada form-control" maxlength="9" pattern="[0-9]{9}" required="true">
+                                </div > 
+                                <div class="form-group">
                                     <label for="correo">E-MAIL</label><br/>
-                                    <input type="email" name="correo" class="entrada" required="true">
-                                </p><br/>   
-                                <p>
-                                    <label for="departamento">DEPARTAMENTO</label><br/>
-                                        <select name="departamento" class="lista">
-                                            <option value="">Seleccione...</option>
-                                            <option value="Amazonas">Amazonas</option>
-                                            <option value="Ancash">Ancash</option>
-                                            <option value="Apurimac">Apurimac</option>
-                                            <option value="Arequipa">Arequipa</option>
-                                            <option value="Ayacucho">Ayacucho</option>
-                                            <option value="Cajamarca">Cajamarca</option>
-                                            <option value="Callao">Callao</option>
-                                            <option value="Cusco">Cusco</option>
-                                            <option value="Huancavelica">Huancavelica</option>
-                                            <option value="Huanuco">Huanuco</option>
-                                            <option value="Ica">Ica</option>
-                                            <option value="Junin">Junin</option>
-                                            <option value="Libertad">La Libertad</option>
-                                            <option value="Lambayeque">Lambayeque</option>
-                                            <option value="Lima">Lima</option>
-                                            <option value="Loreto">Loreto</option>
-                                            <option value="Madre_De_Dios">Madre De Dios</option>
-                                            <option value="Moquegua">Moquegua</option>
-                                            <option value="Pasco">Pasco</option>
-                                            <option value="Piura">Piura</option>
-                                            <option value="Puno">Puno</option>
-                                            <option value="San Martin">San Martin</option>
-                                            <option value="Tacna">Tacna</option>
-                                            <option value="Tumbes">Tumbes</option>
-                                    </select>
-                            </p><br/>
-                            <p>
-                                <label for="distrito">DISTRITO</label><br/>
-                                <input type="text" name="distrito" class="entrada" >
-                            </p><br/>
-                            <p>
-                                <label for="direccion">DIRECCCIÓN</label><br/>
-                                <input type="text" name="direccion" class="entrada" required="true">
-                            </p><br/> 
-                            <p>
+                                    <input type="email" name="correo" class="entrada form-control" required="true">
+                                </div >  
+                                
+                            <div class="form-group">
                                 <label for="servicio">SERVICIO</label><br/>
                                     <select name="servicio" class="lista">
                                         <option value="">Seleccione...</option>
@@ -125,21 +94,12 @@
                                         <option value="cotizacion">COTIZACIÓN</option>
                                         <option value="otros">OTROS</option>
                                     </select>
-                            </p>
-                            
-                        </fieldset><br/>
+                            </div>
+                        </fieldset>
         
                         <fieldset>
                             <legend class="titulo">Datos del Vehículo</legend><br/>
-                                <p>
-                                    <label for="placa">PLACA</label><br/>
-                                    <input type="text" name="placa" class="entrada" required="true">
-                                </p><br/>
-                                <p> 
-                                    <label for="propietario">PROPIETARIO</label><br/>
-                                    <input type="text" name="propietario" class="entrada" required="true">
-                                </p><br/>
-                                <p>
+                                <div class="form-group">
                                     <label for="modelo">MODELO</label><br/>
                                     <select name="modelo" class="lista" >
                                         <option value="" >Seleccione...</option>
@@ -155,21 +115,20 @@
                                         <option value="Hyundai_SantaFe">Hyundai Santa Fe</option>
                                         <option value="Hyundai_NEXO">Hyundai NEXO</option>
                                     </select>
-                                </p><br/>
-                                <p>
+                                </div><br/>
+                                <div class="form-group">
                                     <label for="mensaje">MENSAJE</label><br/>
-                                    <textarea name="mensaje" class="entrada" cols="30" rows="10" required=""></textarea>
-                                </p>
+                                    <textarea name="mensaje" class="entrada form-control" cols="30" rows="10" required=""></textarea>
+                                </div >
                             </fieldset>
-                            <fieldset id="botones">
-                                <p>
-                                    <input type="submit" name="bEnvio" class="boton" value="ENVIAR">
-                                    <input type="reset" name="nReinicio" class="boton" value="REINICIAR">
-                                </p>
-                            </fieldset>
+                            <fieldset>
+                                <div class="form-group">
+                                    <input type="submit" name="bEnvio" class="boton form-control" value="ENVIAR">
+                                </div >
+                        </fieldset>
                     </form>
                 </div>
-                <div class="col-sm-4 offset-1 bloqueR">
+               <!--   <div class="col-sm-4 offset-1 bloqueR">
                     <h3 class="tituloR">Redes Sociales </h3>
 					<ul class="nav nav-pills flex-column">
 						<li class="nav-item ">
@@ -192,7 +151,7 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d210006.73207863574!2d-77.07501004923637!3d-12.028994311484576!3m2!1i1024!2i768!4f13.1!2m1!1shyundai!5e0!3m2!1ses-419!2spe!4v1600360223941!5m2!1ses-419!2spe" width="325" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     <iframe width="325" height="200" src="https://www.youtube.com/embed/9XhrikWnqGw?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 
-                </div>
+                </div> -->
             </div>
         </div>
     </section>

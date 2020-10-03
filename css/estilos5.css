@@ -1,15 +1,18 @@
 /*-----Estilos del la secccion CONTACTENOS------*/
-header{
-    margin-bottom: -32px;
-}
 body{
-    background: url(../img/bg-contentwrap03.jpg);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-image: url(../img/fondo-blanco.jpg);
+   background-size: cover;
 }
 /*Menu de Navegacion*/
+.logoP{
+    width: 15%;
+    padding-top: 1%;
+    margin-bottom: 1%;
+}
 .logoSP{
     margin-top: 15px;  
 }
+
 div ul li{
     margin-left: 25px;
     color: #d7d6d8;
@@ -20,30 +23,44 @@ div ul li:hover{
    font-size: 20px;
 }
 
-
-/*--Estilos del contenido*/
-
-.formContacto{
-    margin-top: 20px;
-    background: #fff9f9;
+.login{
+    color:#d7d6d8;
+    font-weight: bold;
+    opacity: 0.7;
 }
-
-form{
-    background: #ffff;
+.login:hover{
+    opacity: 1;
+}
+.dropdown-item:hover{
+    background-color: #2f2f30;
+    color: #ffffff;
+}
+/*--Estilos del contenido*/
+.fondo{
+    background-image: url(../img/FondoLogin.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.formContacto{
+    background: #ffffff;
+    border: solid 1px #d3d3d3;
+    box-shadow: 1px 1px 1px  #a3a3a3;
+    width: 100%;
     color: #868585;
     font-weight: bold;
     border-radius: 5px;
     font-size: 15px;
-    padding: 40px;
-    width: 100%;
+    padding: 40px; 
 }
+
 fieldset{
     border: none;
 }
-input,textarea ,.lista{
+input,textarea,.lista{
     border-radius: 5px; 
-    width: 70%;
+    width: 100%;
     font-family:inherit;
+    box-shadow: 1px 1px 1px#76747c;
 }
 .titulo{
     color: #173b88;
@@ -51,64 +68,27 @@ input,textarea ,.lista{
     font-size: 25px;   
 }
 
-
-.entrada  {
-    border:solid 1px #cccccc;
-    padding: 10px;
-    width: 70%;
-    color: #444343 ;
-}
-
-
-.entrada:focus ,.entrada:hover{
-    border:solid 2px #76747c;
-    background: #f8f8f8;
-}
-
-.lista{
-    border:solid 1px #cccccc;
-    padding: 10px;
-    width: 50%;
-    color: #444343 ;
-    
-}
 .boton{
     background: #173b88;
     color: rgb(236, 236, 236);
     padding: 5px;
     font-weight: bold;
-    width: 30%;
+    width: 100%;
     margin-top: 20px; 
-    margin-left: 30px;
     border: none;
+    box-shadow: 1px 1px 1px #76747c;
+    
 }
 .boton:hover{
     background: #3877d4;
 }
-#botones{
-    text-align: center;
-}
-/* Estilo del aside*/
-.bloqueR{
-    margin-top: 20px;
-}
 
-.tituloR{
-    font-size: 30px;
-    margin-top: 40px;
-    margin-left: 25px;
-    color: #173b88;
-}
-iframe{
-    margin-left: 7%;
-    margin-bottom:5%;
-}
 /*Estilo Footer*/
 .fondof{
     background: #232324;
     color: #d7d6d8;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 40px;
+  
 }
 
